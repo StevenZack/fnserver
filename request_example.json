@@ -1,0 +1,47 @@
+{
+    "headers": {
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "accept-encoding": "gzip, deflate, br",
+        "accept-language": "zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2",
+        "host": "p75c725gwn2tououhofo6gaqje0fzisz.lambda-url.us-west-2.on.aws",
+        "sec-fetch-dest": "document",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-site": "none",
+        "sec-fetch-user": "?1",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/113.0",
+        "x-amzn-tls-cipher-suite": "ECDHE-RSA-AES128-GCM-SHA256",
+        "x-amzn-tls-version": "TLSv1.2",
+        "x-amzn-trace-id": "Root=1-64786022-38c81506122393d35f6a8adf",
+        "x-forwarded-for": "8.222.216.244",
+        "x-forwarded-port": "443",
+        "x-forwarded-proto": "https"
+    },
+    "isBase64Encoded": false,
+    "queryStringParameters": {
+        "asd": "name",
+        "pw": "ass"
+    },
+    "rawPath": "/nihao/as",
+    "rawQueryString": "asd=name\u0026pw=ass",
+    "requestContext": {
+        "accountId": "anonymous",
+        "apiId": "p75c725gwn2tououhofo6gaqje0fzisz",
+        "domainName": "p75c725gwn2tououhofo6gaqje0fzisz.lambda-url.us-west-2.on.aws",
+        "domainPrefix": "p75c725gwn2tououhofo6gaqje0fzisz",
+        "http": {
+            "method": "GET",
+            "path": "/nihao/as",
+            "protocol": "HTTP/1.1",
+            "sourceIp": "8.222.216.244",
+            "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/113.0"
+        },
+        "requestId": "fc74b573-4ec9-4396-b50d-b648169ca412",
+        "routeKey": "$default",
+        "stage": "$default",
+        "time": "01/Jun/2023:09:08:50 +0000",
+        "timeEpoch": 1685610530952
+    },
+    "routeKey": "$default",
+    "version": "2.0"
+}

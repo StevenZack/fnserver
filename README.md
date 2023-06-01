@@ -1,2 +1,3 @@
-# fnserver
-HTTP server framework that wraps 3 major lambda function service
+# fn
+
+Using GIN in AWS Lambda
