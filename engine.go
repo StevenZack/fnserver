@@ -18,7 +18,7 @@ func Default() *Engine {
 	}
 }
 
-func (s *Engine) Run() {
+func (s *Engine) Run(addr string) error {
 	lambda.Start(func(ctx context.Context, r request) (*response, error) {
 		// convert to gin.Context
 		log.Println(r.String())
@@ -36,4 +36,5 @@ func (s *Engine) Run() {
 		w.Wrap()
 		return w, nil
 	})
+	return nil
 }
