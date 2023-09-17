@@ -21,7 +21,6 @@ func Default() *Engine {
 func (s *Engine) Run(addr ...string) error {
 	lambda.Start(func(ctx context.Context, r request) (*response, error) {
 		// convert to gin.Context
-		log.Println(r.String())
 		req, e := r.ToHttpRequest()
 		if e != nil {
 			log.Println(e)
@@ -29,7 +28,6 @@ func (s *Engine) Run(addr ...string) error {
 				"message": e.Error(),
 			})
 		}
-		log.Println(req.Host + req.URL.Path + " vs " + r.RawPath)
 		w := newResponse()
 
 		s.ServeHTTP(w, req)
