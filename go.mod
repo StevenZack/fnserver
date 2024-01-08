@@ -1,7 +1,5 @@
-module github.com/StevenZack/fn
+module github.com/stevenzack/fn
 
-go 1.21
+go 1.22rc1
 
-require github.com/aws/aws-lambda-go v1.41.0
-
-require github.com/stretchr/testify v1.8.3 // indirect
+require github.com/aws/aws-lambda-go v1.44.0
